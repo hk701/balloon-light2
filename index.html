@@ -42,7 +42,7 @@
   </style>
 </head>
 <body>
-  <button id="permission-btn" style="display: none;">点击启动 AR 体验 v39</button>
+  <button id="permission-btn" style="display: none;">点击启动 AR 体验 v53</button>
   <div id="light-indicator"></div>
   
   <script type="module">
@@ -116,7 +116,7 @@
       directionalLight.shadow.camera.right = 20;
       directionalLight.shadow.camera.top = 20;
       directionalLight.shadow.camera.bottom = -20;
-      directionalLight.shadow.intensity = 0.3;  // 减弱阴影强度
+      directionalLight.shadow.intensity = 0.8;  // 减弱阴影强度
       
       const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);  // 提高环境光减弱阴影
       scene.add(ambientLight);
